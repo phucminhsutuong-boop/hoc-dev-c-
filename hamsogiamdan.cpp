@@ -31,4 +31,4 @@ int main(){
     sosanh(a,n);
     in(a,n);
     return 0;    
-}
+} //26/1/2026 
