@@ -37,4 +37,4 @@ int main(){
  nhap3(c);	
  printf("%s\n%s\n%s",a,b,c);
 	return 0;
-}
+} // 26/1/2026
