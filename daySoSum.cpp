@@ -1,7 +1,7 @@
 // day so sum 
 #include<stdio.h>
 
-long long recursion(int n){
+long long recursion(long long n){
 	if(n==1){
 		return 1;
 	} if(n==0) return 0;
@@ -9,7 +9,8 @@ long long recursion(int n){
 }
 int main(){
 	long long n;
-	scanf("%d",&n);
-	printf("%d",recursion(n));
+	scanf("%lld",&n);
+	printf("%lld",recursion(n));
 	return 0;
-}
+} // 9/2/2026
+// AI noi minh la nen su dung long long chu k nen dung int vi so bi tran so 
